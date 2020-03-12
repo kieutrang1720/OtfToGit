@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_0a4aa7adb9484acd80fd9b8cc0889d1c" name="Document1" package="GitTest2Package1" version="1.0.0.0" timestamp="2020-03-12T16:07:36.0837599+07:00">
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_0a4aa7adb9484acd80fd9b8cc0889d1c" name="Document1" package="GitTest2Package1" version="1.0.0.4" timestamp="2020-03-12T16:07:36.0837599+07:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
     <data key="OtfVersion">6.0.0.33444</data>
@@ -7,7 +7,14 @@
   <procedures>
     <procedure id="id_9fd318a128cd4945aa7ed8d5cd57c0b8" name="main" visibility="PUBLIC">
       <realisation>
-        <flow />
+        <flow>
+          <action name="ProcedureCall1" id="ProcedureCall_d8f9c3dbac784845852794378e4297f5">
+            <realisation xsi:type="ProcedureCall" />
+          </action>
+          <action name="ProcedureCall2" id="ProcedureCall_fe4972f43a784ebcaf603e15b05de7cf">
+            <realisation xsi:type="ProcedureCall" />
+          </action>
+        </flow>
       </realisation>
     </procedure>
   </procedures>

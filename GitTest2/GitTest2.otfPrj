@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UseDiagRuntimeSystem="false" xmlns="http://www.emotive.de/odf">
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectVersion="1.0.0.4" UseDiagRuntimeSystem="false" xmlns="http://www.emotive.de/odf">
   <Applications />
   <References />
   <StartupApplication Procedure="GitTest2Package1.Document1.main">
