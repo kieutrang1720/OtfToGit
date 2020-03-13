@@ -17,5 +17,17 @@
         </flow>
       </realisation>
     </procedure>
+	<procedure id="id_9fd318a128cd4945aa7ed8d5cd57c0b9" name="main1" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="ProcedureCall1" id="ProcedureCall_d8f9c3dbac784845852794378e4297f7">
+            <realisation xsi:type="ProcedureCall" />
+          </action>
+          <action name="ProcedureCall2" id="ProcedureCall_fe4972f43a784ebcaf603e15b05de9cf">
+            <realisation xsi:type="ProcedureCall" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
   </procedures>
 </otx>
